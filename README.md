@@ -6,26 +6,32 @@ React Native Library for button components
 
 ```sh
 npm install react-native-buttons
+Or
+yarn add react-native-buttons
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-buttons';
+import { SimpleButton } from 'react-native-buttons';
 
 // ...
 
-const result = await multiply(3, 7);
+  <SimpleButton onPress={()=>{}} title='Login' />
 ```
 
 ## Contributing
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+This is open-source software and we can make it rock for everyone through contributions.
+```
+https://github.com/ali5049/react-native-buttons
+cd react-native-buttons
+npm install or yarn
+```
+
 
 ## License
 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
